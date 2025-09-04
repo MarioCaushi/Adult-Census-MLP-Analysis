@@ -52,8 +52,28 @@ Open and run the notebooks in order to replicate the analysis and view the resul
 ## Results and Insights
 The repository contains detailed Jupyter notebooks that provide insights into the data characteristics and the effectiveness of different MLP configurations. Results indicate that certain model architectures significantly outperform others, emphasizing the importance of hyperparameter tuning in predictive accuracy.
 
+
+## Results Summary
+
+The performance of the MLP models on the Adult Census Income dataset:
+
+| Model                  | Accuracy | Precision |
+|-------------------------|----------|-----------|
+| MLP – Base Model         | 0.8541   | 0.7554    |
+| MLP – Final Optimized    | **0.8560** | **0.7607** |
+
+
 ## How to Contribute
 Interested in contributing? We welcome pull requests, bug reports, and other contributions. For major changes, please open an issue first to discuss what you would like to change.
+
+
+## Future Work
+
+Potential next steps to improve results:
+- **Additional Hyperparameter Tuning:** Try Bayesian optimization or Optuna for automated tuning.  
+- **Regularization & Dropout:** Further reduce overfitting risks in deeper architectures.  
+- **Ensemble Methods:** Combine MLP with tree-based models for potentially higher accuracy.  
+- **Feature Selection:** Use feature importance analysis for dimensionality reduction.
 
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
