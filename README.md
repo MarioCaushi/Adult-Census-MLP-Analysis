@@ -1,5 +1,14 @@
 # Adult Census MLP Analysis
 
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-teal?logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-green?logo=plotly&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML%20Models-f7931e?logo=scikitlearn&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
+
 ## Project Overview
 This repository hosts a detailed analysis of the Adult Census Income dataset, focusing on using advanced machine learning techniques to predict income levels. The primary goal is to explore various configurations of Multilayer Perceptrons (MLP) to determine which architectural choices optimize prediction accuracy. This project follows the full data science pipeline, from initial data collection and exploratory data analysis to complex model tuning and performance evaluation.
 
